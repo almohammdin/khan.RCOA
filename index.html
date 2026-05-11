@@ -1,0 +1,965 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>من الخان إلى مجتمعات اقتصاديات الأعمال | نايف المحمدي</title>
+<meta name="description" content="قراءة في التقرير السنوي 2025 لجمعية ملاك المطاعم والمقاهي، وكيف تحول القطاع من مجرد شبكة علاقات إلى منظومة معرفية واقتصادية متكاملة.">
+
+<meta property="og:title" content="من الخان إلى مجتمعات اقتصاديات الأعمال | نايف المحمدي">
+<meta property="og:description" content="قراءة في التقرير السنوي 2025 لجمعية ملاك المطاعم والمقاهي، وكيف تحول القطاع من مجرد شبكة علاقات إلى منظومة معرفية واقتصادية متكاملة.">
+<meta property="og:type" content="article">
+<meta property="og:image" content="https://almohammdin.github.io/khan.RCOA/rcoa-annual-report.jpg">
+<meta property="og:url" content="https://almohammdin.github.io/khan.RCOA/">
+
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="من الخان إلى مجتمعات اقتصاديات الأعمال | نايف المحمدي">
+<meta name="twitter:description" content="قراءة في التقرير السنوي 2025 لجمعية ملاك المطاعم والمقاهي، وكيف تحول القطاع إلى منظومة معرفية واقتصادية متكاملة.">
+<meta name="twitter:image" content="https://almohammdin.github.io/khan.RCOA/rcoa-annual-report.jpg">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Arabic:wght@300;400;500;600;700;900&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --bg: #FBF4EA;
+    --dark: #1E0E00;
+    --espresso: #3D1A08;
+    --primary: #B86A2A;
+    --amber: #D4873C;
+    --gold: #E8A84C;
+    --cream: #FFF8F0;
+    --border: #E8D5B8;
+    --muted: #7A5535;
+    --card: #FFFAF4;
+    --tag-bg: #F5E8D4;
+    --radius: 16px;
+    --shadow: 0 2px 20px rgba(43,18,0,0.08);
+  }
+
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body {
+    font-family: 'IBM Plex Sans Arabic', sans-serif;
+    background: var(--bg);
+    color: var(--espresso);
+    font-size: 16px;
+    line-height: 1.8;
+    direction: rtl;
+  }
+
+  /* ═══ RCOA MASTHEAD ═══ */
+  .rcoa-masthead {
+    background: var(--cream);
+    border-bottom: 3px solid var(--dark);
+    position: relative;
+    overflow: hidden;
+  }
+  .rcoa-masthead::before {
+    content: '';
+    position: absolute; inset: 0;
+    background: radial-gradient(ellipse at 85% 30%, rgba(184,106,42,0.05) 0%, transparent 55%);
+    pointer-events: none;
+  }
+  .rcoa-series-ribbon {
+    background: var(--dark);
+    display: flex; align-items: center; justify-content: space-between;
+    padding: 7px 24px; gap: 12px; flex-wrap: wrap;
+  }
+  .rcoa-series-label {
+    font-size: 11px; font-weight: 700; color: var(--gold);
+    display: flex; align-items: center; gap: 8px;
+  }
+  .rcoa-social-mini { display: flex; align-items: center; gap: 14px; }
+  .rcoa-social-mini a {
+    font-size: 11px; color: rgba(255,255,255,0.45);
+    text-decoration: none; font-weight: 500; transition: color 0.2s;
+    display: flex; align-items: center; gap: 4px;
+  }
+  .rcoa-social-mini a:hover { color: var(--gold); }
+  .rcoa-social-sep { width:1px; height:10px; background:rgba(255,255,255,0.12); }
+
+  .rcoa-masthead-body {
+    display: flex; align-items: center; justify-content: center;
+    gap: 20px; padding: 22px 24px 18px;
+    position: relative; z-index: 1; flex-wrap: wrap;
+  }
+  .rcoa-logo-wrap { flex-shrink: 0; display: flex; align-items: center; }
+  .rcoa-logo-img {
+    height: 70px; width: auto; object-fit: contain;
+    mix-blend-mode: multiply;
+  }
+  .rcoa-logo-text-fallback {
+    display: none; flex-direction: column; align-items: center; justify-content: center;
+    width: 70px; height: 70px; background: var(--dark); border-radius: 14px;
+    font-size: 12px; font-weight: 900; color: var(--gold); text-align: center; padding: 6px;
+  }
+  .rcoa-identity-block { text-align: center; }
+  .rcoa-name-main {
+    font-size: clamp(20px, 5.5vw, 32px); font-weight: 900;
+    color: var(--dark); line-height: 1.2; margin-bottom: 4px;
+  }
+  .rcoa-name-en {
+    font-size: 11px; font-weight: 600; color: var(--muted);
+    letter-spacing: 0.1em; text-transform: uppercase; margin-bottom: 10px; display: block;
+  }
+  .rcoa-meta-pills { display: flex; align-items: center; justify-content: center; gap: 8px; flex-wrap: wrap; }
+  .rcoa-meta-pill {
+    display: inline-flex; align-items: center; gap: 4px;
+    border: 1px solid var(--border); border-radius: 100px;
+    padding: 3px 11px; font-size: 10.5px; color: var(--muted); font-weight: 500;
+  }
+  .rcoa-masthead-links {
+    display: flex; justify-content: center; gap: 8px; flex-wrap: wrap;
+    padding: 0 24px 18px; position: relative; z-index: 1;
+  }
+  .rcoa-mlink {
+    display: inline-flex; align-items: center; gap: 6px;
+    background: var(--dark); border-radius: 100px; padding: 7px 18px;
+    color: rgba(255,255,255,0.75); font-size: 12px; font-weight: 600;
+    text-decoration: none; transition: all 0.2s;
+  }
+  .rcoa-mlink:hover { background: var(--espresso); color: var(--gold); transform: translateY(-1px); }
+
+  /* ═══ HEADER ═══ */
+  header {
+    background: linear-gradient(160deg, #1E0E00 0%, #3D1A08 60%, #2B1200 100%);
+    color: #fff; padding: 44px 20px 36px; text-align: center;
+    position: relative; overflow: hidden;
+  }
+  header::before {
+    content: ''; position: absolute; inset: 0;
+    background: radial-gradient(ellipse at 30% 50%, rgba(232,168,76,0.07) 0%, transparent 60%);
+    pointer-events: none;
+  }
+  .logo-wrap { display: flex; justify-content: center; margin-bottom: 24px; }
+  .logo-wrap img { height: 52px; filter: invert(1) brightness(1.15); opacity: 0.9; }
+  .tag-pill {
+    display: inline-block; background: rgba(232,168,76,0.18); color: var(--gold);
+    border: 1px solid rgba(232,168,76,0.3); border-radius: 100px;
+    font-size: 12px; font-weight: 600; padding: 4px 16px; margin-bottom: 16px;
+  }
+  header h1 {
+    font-size: clamp(24px, 6vw, 42px); font-weight: 900; line-height: 1.25;
+    color: #fff; max-width: 700px; margin: 0 auto 14px;
+  }
+  header h1 span { color: var(--gold); }
+  header .subtitle {
+    font-size: 15px; color: rgba(255,255,255,0.6);
+    max-width: 580px; margin: 0 auto 28px; line-height: 1.85;
+  }
+  .author-name { font-size: 16px; font-weight: 800; color: #fff; }
+  .author-role { font-size: 13px; color: rgba(255,255,255,0.55); margin-top: 4px; line-height: 1.5; }
+  .author-role strong { color: var(--gold); font-weight: 600; }
+
+  /* SOCIAL BAR */
+  .social-bar {
+    display: flex; justify-content: center; gap: 8px; flex-wrap: wrap;
+    padding: 14px 20px; background: var(--dark);
+    border-top: 1px solid rgba(255,255,255,0.05);
+  }
+  .social-link {
+    display: flex; align-items: center; gap: 7px;
+    background: rgba(255,255,255,0.06); border: 1px solid rgba(255,255,255,0.1);
+    border-radius: 100px; padding: 6px 14px; text-decoration: none;
+    color: rgba(255,255,255,0.7); font-size: 13px; font-weight: 500; transition: all 0.2s;
+  }
+  .social-link:hover { background: rgba(232,168,76,0.18); color: var(--gold); border-color: rgba(232,168,76,0.35); }
+  .soc-icon { order: 1; } .soc-label { order: -1; }
+
+  /* CONTAINER */
+  .container { max-width: 760px; margin: 0 auto; padding: 0 20px; }
+
+  /* FADE IN */
+  .fade-in { opacity: 0; transform: translateY(18px); transition: opacity 0.55s ease, transform 0.55s ease; }
+  .fade-in.visible { opacity: 1; transform: none; }
+
+  /* ═══ HOOK SECTION ═══ */
+  .hook-section { padding: 52px 20px 0; max-width: 760px; margin: 0 auto; }
+  .eyebrow { display: flex; align-items: center; gap: 10px; margin-bottom: 14px; }
+  .eyebrow-line { width: 28px; height: 3px; background: var(--primary); border-radius: 2px; }
+  .eyebrow-text { font-size: 12px; font-weight: 700; color: var(--primary); letter-spacing: 0.06em; }
+  .hook-section p { font-size: 15px; color: var(--muted); line-height: 1.9; }
+  .hook-section p + p { margin-top: 12px; }
+
+  /* KEY QUESTION */
+  .key-question {
+    margin: 28px 20px 0; max-width: 760px; margin-left: auto; margin-right: auto;
+    background: var(--dark); border-radius: var(--radius); padding: 26px 28px;
+    display: flex; align-items: flex-start; gap: 16px;
+  }
+  .key-q-icon { font-size: 32px; flex-shrink: 0; margin-top: 2px; }
+  .key-q-content h3 { font-size: 16px; font-weight: 800; color: var(--gold); margin-bottom: 10px; }
+  .key-q-content p { font-size: 14.5px; color: rgba(255,255,255,0.7); line-height: 1.85; }
+
+  /* STATS BAR */
+  .stats-bar {
+    margin: 24px 20px 0; max-width: 760px; margin-left: auto; margin-right: auto;
+    display: flex; gap: 12px; flex-wrap: wrap;
+  }
+  .stat-item {
+    flex: 1; min-width: 100px; background: var(--card);
+    border: 1px solid var(--border); border-radius: 14px;
+    padding: 18px 16px; text-align: center;
+  }
+  .stat-num { font-size: 28px; font-weight: 900; color: var(--dark); line-height: 1; }
+  .stat-sub { font-size: 11.5px; color: var(--muted); margin-top: 5px; font-weight: 500; line-height: 1.5; }
+  .stat-src { font-size: 10px; color: var(--primary); margin-top: 6px; font-weight: 600; opacity: 0.7; }
+
+  /* ═══ SECTION HEADER ═══ */
+  .section-header { padding: 52px 20px 20px; max-width: 760px; margin: 0 auto; }
+  .section-num {
+    display: inline-flex; align-items: center; gap: 8px;
+    background: var(--tag-bg); border: 1px solid var(--border); border-radius: 100px;
+    padding: 4px 14px; font-size: 12px; font-weight: 700; color: var(--primary); margin-bottom: 12px;
+  }
+  .section-header h2 { font-size: clamp(19px, 5vw, 26px); font-weight: 900; color: var(--dark); margin-bottom: 10px; }
+  .section-header p { font-size: 14.5px; color: var(--muted); line-height: 1.85; }
+  .section-header p + p { margin-top: 10px; }
+
+  /* ═══ COMMUNITY CARDS ═══ */
+  .comm-grid-wrap { padding: 0 20px; max-width: 760px; margin: 0 auto; }
+  .comm-grid-label {
+    font-size: 12px; font-weight: 700; color: var(--primary); letter-spacing: 0.06em;
+    text-transform: uppercase; margin: 24px 0 12px;
+    display: flex; align-items: center; gap: 10px;
+  }
+  .comm-grid-label::after { content: ''; flex: 1; height: 1px; background: var(--border); }
+  .comm-grid {
+    display: grid; grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 12px; margin-bottom: 20px;
+  }
+  .comm-card {
+    background: var(--card); border: 1px solid var(--border);
+    border-radius: 12px; padding: 10px 12px 9px;
+    text-decoration: none; color: inherit;
+    transition: transform 0.2s, box-shadow 0.2s, border-color 0.2s;
+    display: flex; flex-direction: column; gap: 4px;
+  }
+  .comm-card:hover {
+    transform: translateY(-2px); box-shadow: 0 6px 22px rgba(43,18,0,0.12);
+    border-color: var(--amber);
+  }
+  .comm-card-icon { font-size: 18px; }
+  .comm-card-name { font-size: 13px; font-weight: 800; color: var(--dark); line-height: 1.3; }
+  .comm-card-region { font-size: 11px; color: var(--muted); }
+  .comm-card-cta {
+    margin-top: auto; padding-top: 5px;
+    font-size: 11px; font-weight: 700; color: var(--primary);
+    display: flex; align-items: center; gap: 5px;
+  }
+
+  /* ═══ CTA JOIN BOX (موسع) ═══ */
+  .join-box {
+    background: var(--dark); border-radius: var(--radius); padding: 28px 28px 24px;
+    margin: 24px 20px 0; max-width: 760px; margin-left: auto; margin-right: auto;
+    position: relative; overflow: hidden;
+  }
+  .join-box::before {
+    content: ''; position: absolute; inset: 0;
+    background: radial-gradient(ellipse at 20% 50%, rgba(232,168,76,0.1) 0%, transparent 55%);
+    pointer-events: none;
+  }
+  .join-box-label { font-size: 11px; font-weight: 700; color: var(--gold); letter-spacing: 0.08em; margin-bottom: 8px; }
+  .join-box-title { font-size: 20px; font-weight: 900; color: #fff; margin-bottom: 10px; line-height: 1.3; }
+  .join-box-desc { font-size: 14px; color: rgba(255,255,255,0.6); line-height: 1.75; margin-bottom: 20px; }
+  .join-box-btns { display: flex; gap: 10px; flex-wrap: wrap; }
+  .join-btn {
+    display: inline-flex; align-items: center; gap: 7px;
+    background: var(--gold); color: var(--dark); border-radius: 100px;
+    padding: 9px 20px; font-size: 13px; font-weight: 800; text-decoration: none;
+    transition: all 0.2s;
+  }
+  .join-btn:hover { background: var(--amber); transform: translateY(-1px); }
+  .join-btn-outline {
+    display: inline-flex; align-items: center; gap: 7px;
+    background: transparent; color: rgba(255,255,255,0.7);
+    border: 1px solid rgba(255,255,255,0.2); border-radius: 100px;
+    padding: 9px 20px; font-size: 13px; font-weight: 600; text-decoration: none;
+    transition: all 0.2s;
+  }
+  .join-btn-outline:hover { border-color: var(--gold); color: var(--gold); }
+
+  /* INSIGHT BOX */
+  .insight-box {
+    background: var(--tag-bg); border: 1px solid var(--border); border-radius: 12px;
+    padding: 16px 18px; display: flex; gap: 12px; align-items: flex-start;
+  }
+  .insight-ico { font-size: 20px; flex-shrink: 0; margin-top: 1px; }
+  .insight-label { font-size: 10.5px; font-weight: 700; color: var(--primary); margin-bottom: 4px; letter-spacing: 0.04em; }
+  .insight-text { font-size: 13.5px; color: var(--espresso); line-height: 1.75; }
+
+  /* MEETINGS LIST */
+  .meetings-list { display: flex; flex-direction: column; gap: 14px; }
+  .mtg-item {
+    background: var(--card); border: 1px solid var(--border); border-radius: 14px;
+    padding: 18px 20px; transition: box-shadow 0.2s;
+  }
+  .mtg-item:hover { box-shadow: 0 4px 18px rgba(43,18,0,0.1); }
+  .mtg-header { display: flex; align-items: center; gap: 12px; margin-bottom: 10px; }
+  .mtg-icon { font-size: 22px; flex-shrink: 0; }
+  .mtg-title-wrap { flex: 1; }
+  .mtg-title { font-size: 15px; font-weight: 800; color: var(--dark); margin-bottom: 2px; }
+  .mtg-freq { font-size: 11px; font-weight: 700; color: var(--primary); }
+  .mtg-desc { font-size: 13.5px; color: var(--muted); line-height: 1.75; margin-bottom: 12px; }
+  .mtg-chips { display: flex; gap: 8px; flex-wrap: wrap; }
+  .mtg-chip {
+    background: var(--bg); border: 1px solid var(--border); border-radius: 10px;
+    padding: 4px 12px; font-size: 11.5px; color: var(--espresso); font-weight: 600;
+  }
+  .mtg-chip.highlight { background: var(--tag-bg); color: var(--primary); border-color: rgba(184,106,42,0.3); }
+
+  /* DARK BOX */
+  .dark-box {
+    background: linear-gradient(135deg, var(--dark), #2e1200);
+    border-radius: var(--radius); padding: 24px 22px;
+  }
+  .dark-box-title { font-size: 14px; font-weight: 800; color: var(--gold); margin-bottom: 14px; }
+  .dark-box-text { font-size: 14px; color: rgba(255,255,255,0.7); line-height: 1.85; }
+  .dark-box-text strong { color: var(--gold); }
+
+  /* BLOCKQUOTE */
+  .bq-box {
+    background: var(--tag-bg); border-right: 4px solid var(--primary);
+    border-radius: 0 12px 12px 0; padding: 20px 22px; margin: 8px 0;
+  }
+  .bq-text { font-size: 16px; font-weight: 700; color: var(--dark); line-height: 1.7; }
+  .bq-source { font-size: 12px; color: var(--muted); margin-top: 8px; font-weight: 600; }
+
+  /* SEPARATOR */
+  .section-sep { height: 1px; background: var(--border); margin: 48px 20px; max-width: 760px; margin-left: auto; margin-right: auto; }
+
+  /* DISTINCTION BOX */
+  .distinction-box {
+    background: var(--card); border: 1px solid var(--border); border-radius: var(--radius);
+    border-top: 3px solid var(--dark); padding: 24px 22px; margin: 0 20px;
+    max-width: 760px; margin-left: auto; margin-right: auto;
+  }
+  .distinction-title { font-size: 14px; font-weight: 800; color: var(--dark); margin-bottom: 12px; display: flex; align-items: center; gap: 8px; }
+  .distinction-text { font-size: 14px; color: var(--muted); line-height: 1.9; }
+
+  /* ═══ CLOSING SECTION ═══ */
+  .closing-section {
+    padding: 48px 20px; max-width: 760px; margin: 0 auto; text-align: center;
+  }
+  .closing-section p { font-size: 14.5px; color: var(--muted); line-height: 1.9; margin-bottom: 16px; }
+  .closing-question {
+    background: var(--dark); border-radius: var(--radius); padding: 32px 26px; margin-top: 8px;
+  }
+  .cq-small { font-size: 14px; color: rgba(255,255,255,0.5); margin-bottom: 12px; }
+  .cq-divider { font-size: 18px; color: var(--gold); margin: 10px 0; font-weight: 700; }
+  .cq-q2 { font-size: clamp(17px, 4.5vw, 22px); font-weight: 900; color: var(--gold); line-height: 1.5; }
+
+  /* ═══ FOOTER ═══ */
+  footer {
+    background: var(--dark); padding: 36px 20px 20px;
+    text-align: center; border-top: 3px solid var(--primary);
+  }
+  .footer-logo { display: flex; justify-content: center; margin-bottom: 16px; }
+  .footer-logo img { height: 44px; filter: invert(1) brightness(1.2); opacity: 0.75; }
+  .footer-name { font-size: 18px; font-weight: 900; color: #fff; margin-bottom: 6px; }
+  .footer-roles { font-size: 13px; color: rgba(255,255,255,0.5); line-height: 1.7; }
+  .footer-roles strong { color: var(--gold); font-weight: 600; }
+  .footer-social { display: flex; justify-content: center; gap: 12px; flex-wrap: wrap; margin: 18px 0; }
+  .footer-social a {
+    display: flex; align-items: center; gap: 7px;
+    background: rgba(255,255,255,0.07); border: 1px solid rgba(255,255,255,0.1);
+    border-radius: 100px; padding: 6px 14px; text-decoration: none;
+    color: rgba(255,255,255,0.65); font-size: 13px; font-weight: 500; transition: all 0.2s;
+  }
+  .footer-social a:hover { background: rgba(232,168,76,0.18); color: var(--gold); }
+  .f-icon { order: 1; } .f-label { order: -1; }
+  .footer-disc { font-size: 11px; color: rgba(255,255,255,0.25); line-height: 1.7; margin-top: 10px; }
+  .footer-disc a { color: rgba(255,255,255,0.35); text-decoration: none; }
+
+  /* DISCLAIMER */
+  .rcoa-disclaimer {
+    background: var(--dark); border-top: 1px solid rgba(255,255,255,0.05);
+    padding: 10px 20px; text-align: center;
+  }
+  .rcoa-disclaimer p {
+    font-size: 13px; color: rgba(255,255,255,0.35); line-height: 1.6;
+    max-width: 680px; margin: 0 auto;
+  }
+  .rcoa-disclaimer a { color: rgba(255,255,255,0.3); text-decoration: none; }
+
+  /* ═══ UPP AD ═══ */
+  .upp-ad-wrapper { margin: 52px 20px 0; max-width: 760px; margin-left: auto; margin-right: auto; }
+  .upp-ad-label { display: flex; align-items: center; gap: 10px; margin-bottom: 0; }
+  .upp-ad-label-line { flex: 1; height: 1px; background: var(--border); }
+  .upp-ad-label-text {
+    font-size: 10px; font-weight: 700; color: var(--muted); letter-spacing: 0.12em;
+    white-space: nowrap; opacity: 0.6; border: 1px solid var(--border);
+    border-radius: 4px; padding: 2px 8px;
+  }
+  .upp-promo {
+    background: linear-gradient(135deg, #162040 0%, #0D1530 100%);
+    border-radius: 0 0 var(--radius) var(--radius); overflow: hidden; position: relative;
+    border: 2px solid #2A4080; border-top: none;
+  }
+  .upp-promo::before {
+    content: ''; position: absolute; inset: 0;
+    background: radial-gradient(ellipse at 20% 60%, rgba(232,168,76,0.08) 0%, transparent 50%);
+    pointer-events: none;
+  }
+  .upp-promo-inner {
+    padding: 24px 24px 20px; display: flex; gap: 20px;
+    align-items: center; flex-wrap: wrap; position: relative; z-index: 1;
+  }
+  .upp-badge {
+    flex-shrink: 0; background: rgba(255,255,255,0.12);
+    border: 1.5px solid rgba(255,255,255,0.25); border-radius: 14px;
+    width: 60px; height: 60px; display: flex; align-items: center;
+    justify-content: center; font-size: 26px;
+  }
+  .upp-content { flex: 1; min-width: 200px; }
+  .upp-eyebrow { font-size: 10px; font-weight: 700; color: rgba(255,255,255,0.5); letter-spacing: 0.1em; margin-bottom: 5px; }
+  .upp-title { font-size: 17px; font-weight: 900; color: #fff; margin-bottom: 6px; }
+  .upp-desc { font-size: 13px; color: rgba(255,255,255,0.6); line-height: 1.7; margin-bottom: 14px; }
+  .upp-cta {
+    display: inline-flex; align-items: center; gap: 6px;
+    background: var(--gold); color: var(--dark); border-radius: 100px;
+    padding: 8px 18px; font-size: 13px; font-weight: 800; text-decoration: none;
+    transition: all 0.2s;
+  }
+  .upp-cta:hover { background: var(--amber); }
+  .upp-ad-label-bottom {
+    display: flex; align-items: center; gap: 10px; margin-top: 0;
+    border: 2px solid #2A4080; border-top: none;
+    border-radius: 0 0 var(--radius) var(--radius);
+    padding: 5px 14px; background: var(--tag-bg); justify-content: space-between;
+  }
+  .upp-ad-label-bottom-text { font-size: 10px; color: var(--muted); font-weight: 600; letter-spacing: 0.06em; opacity: 0.7; }
+  .upp-ad-label-bottom a { font-size: 10px; color: var(--primary); font-weight: 700; text-decoration: none; letter-spacing: 0.04em; }
+
+  @media (max-width: 520px) {
+    .comm-grid { grid-template-columns: repeat(2, 1fr); }
+    .join-box { margin: 24px 0 0; }
+    .stats-bar { gap: 8px; }
+    .rcoa-social-mini { gap: 10px; }
+  }
+
+  /* AUTHOR CARD */
+  .author-card {
+    background: var(--dark);
+    border-top: 1px solid rgba(255,255,255,0.06);
+    padding: 22px 20px 26px;
+  }
+  .author-card-inner {
+    max-width: 760px; margin: 0 auto;
+    display: flex; align-items: center; gap: 20px; flex-wrap: wrap;
+    justify-content: center; text-align: center;
+  }
+  .author-card-img {
+    height: 50px; filter: invert(1) brightness(1.2); opacity: 0.85; flex-shrink: 0;
+  }
+  .author-card-info { min-width: 180px; }
+  .author-card-name { font-size: 17px; font-weight: 900; color: #fff; margin-bottom: 5px; }
+  .author-card-role { font-size: 12px; color: rgba(255,255,255,0.5); line-height: 1.65; }
+  .author-card-role strong { color: var(--gold); font-weight: 600; }
+  .author-card-social {
+    display: flex; gap: 8px; flex-wrap: wrap; justify-content: center;
+  }
+  .author-card-social a {
+    display: inline-flex; align-items: center; gap: 5px;
+    background: rgba(255,255,255,0.07); border: 1px solid rgba(255,255,255,0.12);
+    border-radius: 100px; padding: 6px 14px; text-decoration: none;
+    color: rgba(255,255,255,0.65); font-size: 12px; font-weight: 500; transition: all 0.2s;
+  }
+  .author-card-social a:hover { background: rgba(232,168,76,0.18); color: var(--gold); }
+
+</style>
+</head>
+<body>
+
+<!-- ════ RCOA MASTHEAD ════ -->
+<div class="rcoa-masthead">
+  <div class="rcoa-series-ribbon">
+    <span class="rcoa-series-label">المقال الثالث · سلسلة المقالات المعرفية · جمعية ملاك المطاعم والمقاهي</span>
+    <div class="rcoa-social-mini">
+      <a href="https://x.com/RCOA_sa" target="_blank">𝕏 @RCOA_sa</a>
+      <span class="rcoa-social-sep"></span>
+      <a href="https://rcoa.sa/" target="_blank">🌐 rcoa.sa</a>
+      <span class="rcoa-social-sep"></span>
+      <a href="https://sa.linkedin.com/company/rcoa-sa" target="_blank">in LinkedIn</a>
+    </div>
+  </div>
+
+  <div class="rcoa-masthead-body">
+    <div class="rcoa-logo-wrap">
+      <img class="rcoa-logo-img"
+           src="https://rcoa.sa/wp-content/uploads/2024/01/Untitled-1-Recovered.png"
+           alt=(شعار جمعية ملاك المطاعم والمقاهي)
+           onerror="this.style.display='none'; this.nextElementSibling.style.display='flex'">
+      <div class="rcoa-logo-text-fallback">جمعية<br>م.م.م</div>
+    </div>
+    <div class="rcoa-identity-block">
+      <div class="rcoa-name-main">جمعية ملاك المطاعم والمقاهي</div>
+      <span class="rcoa-name-en">Restaurant &amp; Café Owners Association · Saudi Arabia</span>
+      <div class="rcoa-meta-pills">
+        <span class="rcoa-meta-pill">🏛 ترخيص رقم 5109</span>
+        <span class="rcoa-meta-pill">📅 تأسست 1444هـ</span>
+      </div>
+    </div>
+  </div>
+
+  <div class="rcoa-masthead-links">
+    <a href="https://rcoa.sa/" target="_blank" class="rcoa-mlink">🏠 موقع الجمعية</a>
+    <a href="https://linktr.ee/rcoa.sa" target="_blank" class="rcoa-mlink">📋 انضم كعضو</a>
+  </div>
+</div>
+
+<!-- ════ HEADER ════ -->
+<header>
+  <div class="logo-wrap">
+    <img src="https://almohammdin.github.io/assets/img/calligraphy.png"
+         alt=نايف المحمدي
+         onerror="this.style.display='none'">
+  </div>
+  <div class="tag-pill">المقال الثالث ضمن السلسلة المعرفية · جمعية ملاك المطاعم والمقاهي</div>
+  <h1>من الخان إلى<br><span>مجتمعات اقتصاديات الأعمال</span></h1>
+  <p class="subtitle">قراءة في التقرير السنوي 2025 لجمعية ملاك المطاعم والمقاهي</p>
+</header>
+
+<!-- AUTHOR CARD -->
+<div class="author-card">
+  <div class="author-card-inner">
+    <img src="https://almohammdin.github.io/assets/img/calligraphy.png"
+         alt=نايف المحمدي class="author-card-img"
+         onerror="this.style.display='none'">
+    <div class="author-card-info">
+      <div class="author-card-name">نايف المحمدي</div>
+      <div class="author-card-role">مستشار حوكمة وتطوير أعمال · <strong>عضو مؤسس وعضو مجلس الإدارة · جمعية ملاك المطاعم والمقاهي</strong></div>
+    </div>
+    <div class="author-card-social">
+      <a href="https://x.com/almohammdin" target="_blank">𝕏 @almohammdin</a>
+      <a href="https://www.linkedin.com/in/almohammdin/" target="_blank">in @almohammdin</a>
+      <a href="https://www.tiktok.com/@almohammdin" target="_blank">🎵 @almohammdin</a>
+      <a href="https://www.snapchat.com/@almohammdin" target="_blank">👻 @almohammdin</a>
+    </div>
+  </div>
+</div>
+
+<!-- ════ HOOK ════ -->
+<div class="hook-section fade-in">
+  <div class="eyebrow">
+    <span class="eyebrow-text">المقدمة</span>
+  </div>
+  <p>التجارة لم تكن يوماً نشاطاً فردياً.</p>
+  <p>حتى في أبسط صورها التاريخية، كانت قائمة على الاجتماع والثقة وتبادل المعرفة. ولهذا بالضبط وُجدت الخانات في المدن الإسلامية القديمة. لم يكن التاجر يبيت فيها ليستريح فحسب، بل ليسمع ويسأل ويقارن. كانت مركز المعلومة قبل أن تكون مكان الإقامة.</p>
+</div>
+
+<div class="key-question fade-in">
+  <div class="key-q-icon">📖</div>
+  <div class="key-q-content">
+    <h3>ابن خلدون في المقدمة</h3>
+    <p>فلا بدّ من اجتماع القدر الكثيرة… فيحصل بالتعاون قدر الكفاية</p>
+  </div>
+</div>
+
+<div class="hook-section fade-in" style="padding-top: 24px;">
+  <p>اليوم، هذه الفكرة ذاتها تعيش من جديد، لكن بصيغة مؤسسية لم تكن موجودة من قبل.</p>
+</div>
+
+<!-- ════ SECTION 1 ════ -->
+<div class="section-header fade-in">
+  <div class="section-num">التشخيص الأول</div>
+  <h2>أكثر من مجرد مجموعات (قروبات) إنها منظومة تعاونية.</h2>
+  <p>حين يسمع أحدهم عن مجتمعات اقتصاديات الأعمال التابعة لجمعية ملاك المطاعم والمقاهي، ينصرف ذهنه مباشرة إلى قروبات واتساب. وهذا تصور أصغر من الحقيقة بكثير.</p>
+  <p>ما يكشفه التقرير السنوي للجمعية هو منظومة متكاملة تضم 18 مجتمعاً متخصصاً يجمع أكثر من 6,500 مستثمر في القطاع، أنتجت حتى الآن أكثر من 1.5 مليون محتوى منشور. هذا الرقم وحده يقول شيئاً: هذه ليست مساحة للشكوى والتنفيس، بل مساحة إنتاج معرفي حقيقي ومستمر.</p>
+</div>
+
+<div class="stats-bar fade-in">
+  <div class="stat-item">
+    <div class="stat-num">18</div>
+    <div class="stat-sub">مجتمعاً متخصصاً</div>
+    <div class="stat-src">التقرير السنوي 2025</div>
+  </div>
+  <div class="stat-item">
+    <div class="stat-num">+6,500</div>
+    <div class="stat-sub">مستثمر في القطاع</div>
+    <div class="stat-src">التقرير السنوي 2025</div>
+  </div>
+  <div class="stat-item">
+    <div class="stat-num">1.5M</div>
+    <div class="stat-sub">محتوى منشور</div>
+    <div class="stat-src">التقرير السنوي 2025</div>
+  </div>
+</div>
+
+<!-- مجتمعات المناطق + المتخصصة -->
+<div class="comm-grid-wrap fade-in">
+
+  <div class="section-header" style="padding: 32px 0 12px;">
+    <p>والأهم من ذلك أن المجتمعات نفسها متخصصة: كل مجتمع له جمهوره وأجندته ونقاشاته الخاصة. فعلى سبيل المثال:</p>
+  </div>
+
+  <div class="comm-grid-label">مجتمعات المناطق  9 مجتمعات</div>
+  <div class="comm-grid">
+    <a class="comm-card" href="https://chat.whatsapp.com/Bsehws0Dj9cDQm0O0jZEMT" target="_blank">
+      <div class="comm-card-icon">🏙</div>
+      <div class="comm-card-name">عاصمة الضيافة</div>
+      <div class="comm-card-region">منطقة الرياض</div>
+      <div class="comm-card-cta">💬 انضم للمجتمع</div>
+    </a>
+    <a class="comm-card" href="https://chat.whatsapp.com/LNdw20AG0A98IY7ZXTvAKQ" target="_blank">
+      <div class="comm-card-icon">🌊</div>
+      <div class="comm-card-name">رواد الضيافة</div>
+      <div class="comm-card-region">المنطقة الغربية</div>
+      <div class="comm-card-cta">💬 انضم للمجتمع</div>
+    </a>
+    <a class="comm-card" href="https://chat.whatsapp.com/JZa1ECOSzDSKXvKNpspKi1" target="_blank">
+      <div class="comm-card-icon">🌹</div>
+      <div class="comm-card-name">عروس الضيافة</div>
+      <div class="comm-card-region">جدة</div>
+      <div class="comm-card-cta">💬 انضم للمجتمع</div>
+    </a>
+    <a class="comm-card" href="https://chat.whatsapp.com/HrhTQRkJOHG0VA8WFwl8m9" target="_blank">
+      <div class="comm-card-icon">🕌</div>
+      <div class="comm-card-name">بركة الضيافة</div>
+      <div class="comm-card-region">مكة المكرمة</div>
+      <div class="comm-card-cta">💬 انضم للمجتمع</div>
+    </a>
+    <a class="comm-card" href="https://chat.whatsapp.com/CEmdxhVHpiv1mnra3NYMAN" target="_blank">
+      <div class="comm-card-icon">🕍</div>
+      <div class="comm-card-name">طيبة الضيافة</div>
+      <div class="comm-card-region">المدينة المنورة</div>
+      <div class="comm-card-cta">💬 انضم للمجتمع</div>
+    </a>
+    <a class="comm-card" href="https://chat.whatsapp.com/JNcvWMCoqhdHb1CQmxW5Z1" target="_blank">
+      <div class="comm-card-icon">🌸</div>
+      <div class="comm-card-name">ورد الضيافة</div>
+      <div class="comm-card-region">الطائف</div>
+      <div class="comm-card-cta">💬 انضم للمجتمع</div>
+    </a>
+    <a class="comm-card" href="https://chat.whatsapp.com/GIbamZBZ4wdDQ6ujE66gJa" target="_blank">
+      <div class="comm-card-icon">⚡</div>
+      <div class="comm-card-name">إثراء الضيافة</div>
+      <div class="comm-card-region">المنطقة الشرقية</div>
+      <div class="comm-card-cta">💬 انضم للمجتمع</div>
+    </a>
+    <a class="comm-card" href="https://chat.whatsapp.com/EJNiZH9DQ3DBahW2MJHNh9" target="_blank">
+      <div class="comm-card-icon">🏔</div>
+      <div class="comm-card-name">منتدى الضيافة</div>
+      <div class="comm-card-region">منطقة عسير</div>
+      <div class="comm-card-cta">💬 انضم للمجتمع</div>
+    </a>
+    <a class="comm-card" href="https://chat.whatsapp.com/LwDaIimstI15NnksQozt6O" target="_blank">
+      <div class="comm-card-icon">🌾</div>
+      <div class="comm-card-name">سقيفة الضيافة</div>
+      <div class="comm-card-region">منطقة القصيم</div>
+      <div class="comm-card-cta">💬 انضم للمجتمع</div>
+    </a>
+  </div>
+
+  <div class="comm-grid-label">المجتمعات المتخصصة  4 مجتمعات</div>
+  <div class="comm-grid">
+    <a class="comm-card" href="https://chat.whatsapp.com/DdGOEJu3yLR5sBFXNc7GP1" target="_blank">
+      <div class="comm-card-icon">☕</div>
+      <div class="comm-card-name">رشفة الضيافة</div>
+      <div class="comm-card-region">مشاريع المشروبات والقهوة</div>
+      <div class="comm-card-cta">💬 انضم للمجتمع</div>
+    </a>
+    <a class="comm-card" href="https://linktr.ee/rcoa.sa" target="_blank">
+      <div class="comm-card-icon">👩‍💼</div>
+      <div class="comm-card-name">سيدات الضيافة</div>
+      <div class="comm-card-region">سيدات الأعمال في القطاع</div>
+      <div class="comm-card-cta">💬 انضم للمجتمع</div>
+    </a>
+    <a class="comm-card" href="https://linktr.ee/rcoa.sa" target="_blank">
+      <div class="comm-card-icon">🌱</div>
+      <div class="comm-card-name">شغف الضيافة</div>
+      <div class="comm-card-region">المقبلون على القطاع</div>
+      <div class="comm-card-cta">💬 انضم للمجتمع</div>
+    </a>
+    <a class="comm-card" href="https://linktr.ee/rcoa.sa" target="_blank">
+      <div class="comm-card-icon">🔗</div>
+      <div class="comm-card-name">سلاسل الضيافة</div>
+      <div class="comm-card-region">الموردون والعاملون في القطاع</div>
+      <div class="comm-card-cta">💬 انضم للمجتمع</div>
+    </a>
+  </div>
+</div>
+
+<!-- CTA JOIN BOX موسع -->
+<div class="join-box fade-in">
+  <div class="join-box-label">📋 الانضمام مجاني حصري لملاك ومستثمري القطاع</div>
+  <div class="join-box-title">انضم إلى مجتمعات اقتصاديات الأعمال</div>
+  <div class="join-box-desc">18 مجتمعاً متخصصاً يغطي مناطق المملكة وتخصصات القطاع اختر مجتمعك واستفد من أكثر من 6,500 مستثمر وصاحب منشأة</div>
+  <div class="join-box-btns">
+    <a href="https://linktr.ee/rcoa.sa" target="_blank" class="join-btn">عرض جميع المجتمعات ←</a>
+  </div>
+</div>
+
+<!-- ════ SECTION 2 ════ -->
+<div class="section-header fade-in">
+  <div class="section-num">البُعد الميداني</div>
+  <h2>اللقاءات: حين يتحول الحوار إلى ملموس</h2>
+  <p>ما يميز هذه المنظومة عن أي مجموعة إلكترونية أخرى هو امتدادها خارج الشاشة. الجمعية تنظم أكثر من 750 لقاءً سنوياً حضر فيه أكثر من 30,000 شخص، وتراكمت قيمتها الاقتصادية إلى أكثر من 5 ملايين ريال.</p>
+</div>
+
+<div class="stats-bar fade-in">
+  <div class="stat-item">
+    <div class="stat-num">750+</div>
+    <div class="stat-sub">لقاء سنوياً</div>
+  </div>
+  <div class="stat-item">
+    <div class="stat-num">30,000+</div>
+    <div class="stat-sub">حضور</div>
+  </div>
+  <div class="stat-item">
+    <div class="stat-num">5M+</div>
+    <div class="stat-sub">ريال قيمة اقتصادية</div>
+  </div>
+</div>
+
+<div class="container" style="padding-top: 24px;">
+  <div class="meetings-list fade-in">
+    <div class="mtg-item">
+      <div class="mtg-header">
+        <div class="mtg-icon">📍</div>
+        <div class="mtg-title-wrap">
+          <div class="mtg-title">لقاء الضيافة</div>
+          <div class="mtg-freq">أسبوعي زيارات ميدانية</div>
+        </div>
+      </div>
+      <div class="mtg-desc">يُعقد أسبوعياً بزيارات ميدانية مباشرة لمنشآت الأعضاء في 5 مدن. يناقش الحضور التحديات والفرص التشغيلية ويقدمون تقييماً مهنياً إيجابياً للمنشآت المشاركة.</div>
+      <div class="mtg-chips">
+        <span class="mtg-chip highlight">180 فعالية</span>
+        <span class="mtg-chip highlight">3,000+ حضور</span>
+        <span class="mtg-chip">5 مدن</span>
+      </div>
+    </div>
+    <div class="mtg-item">
+      <div class="mtg-header">
+        <div class="mtg-icon">🎙</div>
+        <div class="mtg-title-wrap">
+          <div class="mtg-title">مساحة الضيافة</div>
+          <div class="mtg-freq">أسبوعي كل أربعاء</div>
+        </div>
+      </div>
+      <div class="mtg-desc">لقاء أسبوعي لمناقشة قضايا القطاع مع مستشارين وخبراء. يستعرض المشاركون تجارب عملية ويبحثون في الفرص والتحديات التشغيلية.</div>
+      <div class="mtg-chips">
+        <span class="mtg-chip highlight">34 مساحة</span>
+        <span class="mtg-chip highlight">16,500+ حضور</span>
+        <span class="mtg-chip">100+ مستشار مشارك</span>
+      </div>
+    </div>
+    <div class="mtg-item">
+      <div class="mtg-header">
+        <div class="mtg-icon">☕</div>
+        <div class="mtg-title-wrap">
+          <div class="mtg-title">قهوة الضيافة</div>
+          <div class="mtg-freq">أسبوعي كل جمعة</div>
+        </div>
+      </div>
+      <div class="mtg-desc">نقاشات مفتوحة حول حركة السوق والقوة الشرائية والاتجاهات الموسمية. تُقام في 10 مدن بالتوازي في أجواء أخوية راقية.</div>
+      <div class="mtg-chips">
+        <span class="mtg-chip highlight">350 فعالية</span>
+        <span class="mtg-chip highlight">3,000+ حضور</span>
+        <span class="mtg-chip">10 مدن</span>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="section-header" style="padding-top: 20px;">
+  <p>وهذا كله قبل أن نتحدث عن الفعاليات الموسمية: شتوية الضيافة، صيف الضيافة، حفل ملتقى الضيافة السنوي.</p>
+</div>
+
+<!-- ════ SECTION 3 ════ -->
+<div class="section-header fade-in">
+  <div class="section-num">المعرفة الموثقة</div>
+  <h2>الدراسات والتقارير: حين تتحول النقاشات إلى معرفة</h2>
+  <p>ما يحدث داخل هذه المجتمعات لا يبقى داخلها. الجمعية تحول النقاشات إلى معرفة منظمة. أصدرت ثلاث دراسات متخصصة تجاوزت مشاهداتها الإجمالية 3 ملايين مشاهدة. وأصدرت 10 تقارير متخصصة بأكثر من 70,000 مشاهدة.</p>
+</div>
+
+<div class="stats-bar fade-in">
+  <div class="stat-item">
+    <div class="stat-num">3</div>
+    <div class="stat-sub">دراسات متخصصة</div>
+  </div>
+  <div class="stat-item">
+    <div class="stat-num">3M+</div>
+    <div class="stat-sub">مشاهدة للدراسات</div>
+  </div>
+  <div class="stat-item">
+    <div class="stat-num">10</div>
+    <div class="stat-sub">تقارير متخصصة</div>
+  </div>
+  <div class="stat-item">
+    <div class="stat-num">70K+</div>
+    <div class="stat-sub">مشاهدة للتقارير</div>
+  </div>
+</div>
+
+<div class="container fade-in" style="padding-top: 20px;">
+  <div class="insight-box">
+    <div class="insight-ico">📋</div>
+    <div>
+      <div class="insight-label">قالوا في المجتمعات</div>
+      <div class="insight-text">سلسلة تقارير تُحوّل ما يدور في مجتمعات اقتصاديات الأعمال من نقاشات ومخاوف وتجارب إلى محتوى معرفي موثق. وهذا بالضبط ما تصفه أدبيات إدارة المعرفة بـمجتمعات الممارسة: معرفة ضمنية متفرقة في أذهان الأفراد، تتحول إلى رصيد مؤسسي يعود على الجميع.</div>
+    </div>
+  </div>
+</div>
+
+<div class="section-header" style="padding-top: 20px;">
+  <p>دراسة اتحاد الغرف التجارية تكشف بأرقامها أن الوعي ببرامج الدعم والحوافز الحكومية لا يزال (محدوداً لدى بعض أصحاب المنشآت). دراسة الجمعية ذاتها أكدت الشيء نفسه من زاوية أخرى. هذا يعني أن الدور المعرفي لهذه المجتمعات لا يكمّل الدور الحكومي فحسب، بل يسد فجوة حقيقية.</p>
+</div>
+
+<!-- ════ SECTION 4 ════ -->
+<div class="section-header fade-in">
+  <div class="section-num">الأثر الاقتصادي المباشر</div>
+  <h2>منصة الشراء الموحد: حين تُترجم الشبكة إلى أموال</h2>
+  <p>ربما هذا هو الجزء الأقل ظهوراً والأعمق تأثيراً. الجمعية أطلقت منصة الشراء الموحد بالتعاون مع شركة سول، وهي منصة رقمية تربط المطاعم والمقاهي بالموردين المعتمدين، وتُمكّن الأعضاء من الاستفادة من قوة الشراء الجماعي. بمعنى آخر: منشأة صغيرة واحدة لا تستطيع التفاوض على سعر المورد، لكن 6,500 منشأة خلف ظهرها يغيّران المعادلة تماماً.</p>
+</div>
+
+<div class="container fade-in">
+  <div class="bq-box">
+    <div class="bq-text">الشبكة (أي شبكة العلاقات) لا ترفع الإنتاجية لأن لديها موارد أكثر، بل لأنها تُعيد توزيع القوة التفاوضية.</div>
+    <div class="bq-source">مايكل بورتر، نظرية اقتصاديات التجمعات Harvard Business Review 1998</div>
+  </div>
+</div>
+
+<!-- UPP AD -->
+<div class="upp-ad-wrapper fade-in">
+  <div class="upp-ad-label">
+    <div class="upp-ad-label-line"></div>
+    <span class="upp-ad-label-text">من مبادرات جمعية ملاك المطاعم والمقاهي</span>
+    <div class="upp-ad-label-line"></div>
+  </div>
+  <div class="upp-promo">
+    <div class="upp-promo-inner">
+      <div class="upp-badge">🛒</div>
+      <div class="upp-content">
+        <div class="upp-eyebrow">منصة رسمية · جمعية ملاك المطاعم والمقاهي</div>
+        <div class="upp-title">منصة الشراء الموحد (UPP)</div>
+        <p class="upp-desc">وفّر في تكاليف التشغيل عبر الشراء الجماعي الموحّد مستلزمات، خامات، معدات، وخدمات بأسعار تفضيلية حصرية لأعضاء الجمعية.</p>
+        <a href="https://upp.rcoa.sa/" target="_blank" class="upp-cta">زيارة المنصة ←</a>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- ════ SECTION 5 ════ -->
+<div class="section-header fade-in">
+  <div class="section-num">الحجم الحقيقي</div>
+  <h2>ما تقوله الأرقام عن القطاع</h2>
+  <p>الجمعية لا تمثل جمعاً عشوائياً من الأشخاص. تقريرها السنوي يكشف أن أعضاءها يمثلون:</p>
+</div>
+
+<div class="stats-bar fade-in">
+  <div class="stat-item">
+    <div class="stat-num">+10,000</div>
+    <div class="stat-sub">علامة تجارية</div>
+  </div>
+  <div class="stat-item">
+    <div class="stat-num">+20,000</div>
+    <div class="stat-sub">فرع في المملكة</div>
+  </div>
+  <div class="stat-item">
+    <div class="stat-num">+100,000</div>
+    <div class="stat-sub">موظف</div>
+  </div>
+  <div class="stat-item">
+    <div class="stat-num">+15B</div>
+    <div class="stat-sub">ريال · دخل سنوي للأعضاء</div>
+  </div>
+</div>
+
+<div class="container fade-in" style="padding-top: 20px;">
+  <div class="dark-box">
+    <div class="dark-box-title">💡 ليس مجتمعاً مهنياً. هذا قطاع اقتصادي كامل</div>
+    <div class="dark-box-text">هذا ليس حجم مجتمع مهني. هذا حجم قطاع اقتصادي كامل.</div>
+  </div>
+</div>
+
+
+
+
+
+<!-- ════ DISTINCTION ════ -->
+
+
+<!-- ════ SECTION 6 ════ -->
+<div class="section-header fade-in">
+  <div class="section-num">الأثر الحقيقي</div>
+  <h2>ما الذي تصنعه هذه المنظومة فعلاً؟</h2>
+  <p>لن يكون صادقاً القول إن هذه المجتمعات ترفع المبيعات مباشرة. لا تفعل ذلك.</p>
+  <p>لكنها تؤثر على ما هو أعمق: جودة القرار، وسرعة التعلم، وتقليل الخسائر القابلة للتفادي، وقوة التفاوض الجماعي، وترسيخ المعرفة المؤسسية في قطاع كثيراً ما يُعمل فيه بحدس وتجربة شخصية. ودراسة الجمعية ذاتها أثبتت أن 68% من دوافع ترك العاملين لوظائفهم ترتبط بعدم الشعور بالتقدير. هذا نوع من المعرفة لا تجده في كتاب، لكنك تسمعه من صاحب مطعم جرّب ووثّق.</p>
+</div>
+
+<div class="stats-bar fade-in">
+  <div class="stat-item">
+    <div class="stat-num">68%</div>
+    <div class="stat-sub">من دوافع ترك العمل: غياب التقدير</div>
+    <div class="stat-src">دراسة الجمعية 2025</div>
+  </div>
+  <div class="stat-item">
+    <div class="stat-num">10M+</div>
+    <div class="stat-sub">ظهور إعلامي للجمعية</div>
+  </div>
+  <div class="stat-item">
+    <div class="stat-num">20+</div>
+    <div class="stat-sub">اتفاقية استراتيجية</div>
+  </div>
+</div>
+
+<div class="container fade-in" style="padding-top: 20px;">
+  <div class="bq-box">
+    <div class="bq-text">الجمعيات المهنية المتخصصة تمثل ركيزة مهمة في دعم رواد الأعمال وتطوير بيئة الأعمال وتعزيز التكامل بين القطاعين الحكومي والخاص.</div>
+    <div class="bq-source"> معالي الدكتور ماجد القصبي، وزير التجارة</div>
+  </div>
+</div>
+
+<div class="section-header" style="padding-top: 16px;">
+  <p>هذا اعتراف رسمي بأن ما يُبنى هنا لا يُكمّل دور الجهات الحكومية فحسب، بل يُنتج قيمة لا يستطيع أي طرف آخر إنتاجها منفرداً.</p>
+</div>
+
+<!-- ════ CONCLUSION ════ -->
+<div class="closing-section fade-in">
+  <p>مجتمعات اقتصاديات الأعمال ليست قروبات واتساب. هي منظومة معرفية ومؤسسية متكاملة تقوم على: 18 مجتمعاً متخصصاً، وأكثر من 750 لقاءً سنوياً، ودراسات ميدانية، وتقارير معرفية، ومنصة شراء جماعي، وحضور إعلامي يتجاوز 10 ملايين ظهور، وأكثر من 20 اتفاقية استراتيجية.</p>
+  <p>ما يُبنى هنا ليس شبكة علاقات. هو بنية تحتية غير رسمية لقطاع بأكمله، قادر يوماً ما على أن يصبح بنيته التفاوضية الرسمية أمام الجهات التنظيمية والموردين والمستثمرين.</p>
+  <div class="closing-question">
+    <div class="cq-small">وهذا بالضبط ما كانت تفعله الخانات قبل قرون.</div>
+    <div class="cq-divider"></div>
+    <div class="cq-q2">الأدوات تغيرت. الحاجة لم تتغير.</div>
+  </div>
+</div>
+
+<!-- ════ FOOTER ════ -->
+<footer>
+  <div class="footer-logo">
+    <img src="https://almohammdin.github.io/assets/img/calligraphy.png"
+         alt=نايف المحمدي
+         style="height:42px; filter:invert(1) brightness(1.1); opacity:0.85;"
+         onerror="this.style.display='none'">
+  </div>
+  <div class="footer-name">نايف المحمدي</div>
+  <div class="footer-roles">
+    مستشار الحوكمة وتطوير الأعمال<br>
+    <strong>عضو مؤسس وعضو مجلس الإدارة · جمعية ملاك المطاعم والمقاهي</strong>
+  </div>
+  <div class="footer-social">
+    <a href="https://x.com/almohammdin" target="_blank"><span class="f-label">@almohammdin</span><span class="f-icon">𝕏</span></a>
+    <a href="https://www.linkedin.com/in/almohammdin/" target="_blank"><span class="f-label">@almohammdin</span><span class="f-icon">in</span></a>
+    <a href="https://www.tiktok.com/@almohammdin" target="_blank"><span class="f-label">@almohammdin</span><span class="f-icon">🎵</span></a>
+    <a href="https://www.snapchat.com/@almohammdin" target="_blank"><span class="f-label">@almohammdin</span><span class="f-icon">👻</span></a>
+  </div>
+  <div class="footer-disc">
+    مقال تعليمي · المقال الثالث من السلسلة المعرفية<br>
+  </div>
+</footer>
+
+<div class="rcoa-disclaimer">
+  <p>تنويه: ما يرد في هذا المقال يعبّر عن رأي الكاتب وحده، ولا يمثّل الموقف الرسمي لـ<a href="https://rcoa.sa/" target="_blank">جمعية ملاك المطاعم والمقاهي</a> · لا يُعدّ توصية استثمارية أو قانونية</p>
+</div>
+
+<script>
+const obs = new IntersectionObserver(entries => {
+  entries.forEach(e => {
+    if(e.isIntersecting){ e.target.classList.add('visible'); obs.unobserve(e.target); }
+  });
+}, { threshold: 0.07 });
+document.querySelectorAll('.fade-in').forEach(el => obs.observe(el));
+</script>
+</body>
+</html>
